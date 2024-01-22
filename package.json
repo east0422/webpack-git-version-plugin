@@ -1,0 +1,35 @@
+{
+  "name": "@east/webpack-git-version-plugin",
+  "version": "1.0.0",
+  "description": "A simple webpack plugin that generate version and commit info during build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "git",
+    "webpack",
+    "version"
+  ],
+  "author": "east",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [],
+  "bugs": {
+    "url": "https://github.com/east0422/webpack-git-version-plugin/issues",
+    "email": "694292191@qq.com"
+  },
+  "homepage": "https://github.com/east0422/webpack-git-version-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/east0422/webpack-git-version-plugin.git"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0 || ^5.0.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
