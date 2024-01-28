@@ -7,13 +7,13 @@ This plugin will generate a `version.json` file and add build information that c
 install it as a local development dependency:
 
   ```bash
-  npm install @east/webpack-git-version-plugin -D
+  npm install @east0422/webpack-git-version-plugin -D
   ```
 
 Then, simply configure it as a plugin in the webpack config `vue.config.js`:
 
   ```js
-  const WebpackGitVersionPlugin = require('@east/webpack-git-version-plugin');
+  const WebpackGitVersionPlugin = require('@east0422/webpack-git-version-plugin');
 
   module.exports = {
     ...

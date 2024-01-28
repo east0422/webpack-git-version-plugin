@@ -1,5 +1,5 @@
 {
-  "name": "@east/webpack-git-version-plugin",
+  "name": "@east0422/webpack-git-version-plugin",
   "version": "1.0.0",
   "description": "A simple webpack plugin that generate version and commit info during build",
   "main": "index.js",
