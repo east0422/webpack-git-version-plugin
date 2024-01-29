@@ -56,7 +56,6 @@ class WebpackGitVersionPlugin {
   }
   constructor(options) {
     // options 为调用时传的参数
-    console.log('WebpackGitVersionPlugin 被调用！', options)
     this.options = {...this.defaultOptions, ...options}
   }
   /**

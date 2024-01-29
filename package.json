@@ -2,7 +2,10 @@
   "name": "@east0422/webpack-git-version-plugin",
   "version": "1.0.0",
   "description": "A simple webpack plugin that generate version and commit info during build",
-  "main": "index.js",
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
