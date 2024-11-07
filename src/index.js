@@ -3,10 +3,10 @@ const execSync = require('child_process').execSync
 
 // 获取当前git分支信息
 function getGitVersionInfo() {
-  // 当前分支名 git name-rev --name-only HEAD 这个命令会在终端输出你当前的版本或标签信息。
-  const branchName = execSync('git name-rev --name-only HEAD').toString().trim()
+  // 当前分支名 git rev-parse --abbrev-ref HEAD 这个命令会在终端输出你当前的版本或标签信息。
+  const branchName = execSync('git rev-parse --abbrev-ref HEAD').toString().trim()
   // 最后一次提交的commit full hash
-  const commitId = execSync('git show -s --format=%H').toString().trim()
+  const commitId = execSync('git rev-parse HEAD').toString().trim()
   // 提交人姓名
   const commitAuthor = execSync('git show -s --format=%cn').toString().trim()
   // 提交人邮箱
